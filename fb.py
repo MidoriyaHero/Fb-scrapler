@@ -21,7 +21,7 @@ def ini_chrome(web_link):
     # options.add_argument(f'--disable-incognito')
     # options.add_argument(f'--disable-site-isolation-trials')
     # options.add_argument('--no-sandbox')
-    # options.add_argument("user-data-dir=C:\\Users\\buitr\\AppData\\Local\\Google\\Chrome\\User Data")
+
     service  = Service(executable_path=r"~\chromedriver-win64\chromedriver-win64\chromedriver.exe")
     driver= webdriver.Chrome(options = options,service=service)
     
